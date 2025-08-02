@@ -1,7 +1,12 @@
-site_name: X-University
+site_name: 福农数科指北
+repo_url: https://github.com/henani1110/x-university
+
+# 版权信息
+copyright: Copyright &copy;Hanxi Chen (henani110)
 
 theme:
   name: material
+  language: zh
   features: # 功能
 #    - announce.dismiss # 可以叉掉公告的功能
 #    - content.action.edit # 编辑按钮，似乎没啥用
@@ -31,32 +36,20 @@ theme:
     - toc.follow # 目录跟踪-页面右侧的小目录
     # - toc.integrate # 目录跟踪集成到左侧大目录中
   palette:
-    - media: "(prefers-color-scheme)" # 主题颜色
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/link
-        name: Switch to light mode
     - media: "(prefers-color-scheme: light)" # 浅色
       scheme: default
-      primary: indigo
+      primary: teal
       accent: indigo
       toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+        icon: material/weather-sunny
+        name: 切换至深色模式
     - media: "(prefers-color-scheme: dark)" # 深色
       scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
-
-repo_url: https://github.com/henani1110/x-university
-
-# 版权信息
-copyright: Copyright &copy; 2025 ~ now | 🚀 Hanxi Chen (henani110)
+        icon: material/weather-night
+        name: 切换至浅色模式
 
 # Plugins
 plugins:
@@ -118,36 +111,14 @@ markdown_extensions: # markdown extensions
 
 nav:
   - 首页: index.md
-#  - 大一上:
-#          - 高等数学A1:
-#          - 线性代数:
-#          - Python程序语言:
-#  - 大一下:
-#          - 大学物理C:
-#          - 大学物理实验C:
-#          - 高等数学A2:
-#          - 数据科学与大数据导论:
-#          - Python程序设计实践:
-#  - 大二上:
-#          - 离散数学:
-#          - 数据库原理:
-#          - 计算机组成原理:
-#          - 概率论与数理统计:
-#          - 程序设计基础（C语言）:
-#  - 大二下:
-#          - 计算机网络:
-#          - 操作系统:
-#          - 数据结构:
-#          - Java语言程序设计:
-#          - 统计学:
-#          - 运筹学:
-#          - 数学模型:
-#  - 大三上:
-#          - 数值分析:
-#          - 大数据技术与应用:
-#          - 数据挖掘:
-#          - 数字图像处理(双语课):
-#          - 计算机视觉:
-#  - 大三下:
-#  - 大四上:
-#  - 大四下:
+#  - 课程指引:
+#      - 公共课:
+#      - 实践教学:
+#      - 科类基础课:
+#      - 专业核心课:
+#  - 学习方法:
+#  - 学科竞赛:
+#  - 语言学习:
+#  - 科研学习:
+#  - 考研/保研经验:
+#  - 就业经验:
